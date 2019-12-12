@@ -18,6 +18,6 @@
  - Java
 
 
-# Intruçoes para Executar os teste
+# Instruções para executar os teste.
 
 
