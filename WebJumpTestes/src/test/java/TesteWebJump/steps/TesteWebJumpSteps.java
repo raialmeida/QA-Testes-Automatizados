@@ -19,7 +19,7 @@ public class TesteWebJumpSteps {
 	TesteWebJumbPages2 TesteWebJumbPages2 = new TesteWebJumbPages2(driver);
 	TesteWebJumbPages3 TesteWebJumbPages3 = new TesteWebJumbPages3(driver);
 	
-	//print.Print("Screenshot Cen·rio 1");
+	
 	
 	@Given("^que eu acesse a pagina$")
 	public void queEuAcesseAPagina() throws Throwable {
@@ -44,7 +44,7 @@ public class TesteWebJumpSteps {
 	@Then("^verificar se os botoes ainda estao na tela$")
 	public void verificarSeOsBotoesAindaEstaoNaTela() throws Throwable {
 		TesteWebJumbPages.verificarAusencia(driver);
-		print.Print("Screenshot Cen·rio 1");
+		print.Print("Screenshot Cen√°rio 1");
 		
   
 	}
@@ -73,7 +73,7 @@ public class TesteWebJumpSteps {
 		TesteWebJumbPages2.verificarAusenciaBotaoIFrameButtons(driver);
 		
 		driver.switchTo().defaultContent();
-		print.Print("Screenshot Cen·rio 2");
+		print.Print("Screenshot Cen√°rio 2");
 		
 	}
 
@@ -97,7 +97,7 @@ public class TesteWebJumpSteps {
 	@When("^selecione a opcao ExampleTwo dentro da select box$")
 	public void selecioneAOpcaoExampleTwoDentroDaSelectBox() throws Throwable {
 		TesteWebJumbPages3.selectBoxExampleTwo(driver);
-		print.Print("Screenshot Cen·rio 3");
+		print.Print("Screenshot Cen√°rio 3");
 	    
 	}
 
