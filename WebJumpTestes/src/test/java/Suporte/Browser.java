@@ -15,7 +15,7 @@ public class Browser {
 		// Abrindo o ChromeDriver
 		System.setProperty("webdriver.chrome.driver", "target\\Driver\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
   
 		// Navegando para o site
