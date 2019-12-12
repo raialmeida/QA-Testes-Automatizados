@@ -3,7 +3,7 @@
 
 
 
-# Testes WebJumb
+# Testes WebJumb.
 
 
 ## Ferramentas Utilizada.
@@ -38,6 +38,8 @@
  - Baixar o chromedriver e coolocar na pasta Driver ou então colocar na pasta desejável, so definir o caminho do driver
    na classe Browser.
  
- 
  - Dentro do pacote TesteWebJump.runner contém a classe Runner.
    Executar a classe Runner para executar os testes.
+   
+ #####
+  
