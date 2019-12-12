@@ -22,11 +22,12 @@
 # Instruções para executar os teste.
 
  - Quando for executar os testes verificar antes o caminho do driver.
-  -- Verificar na pacote Suporte a classe Browser nela estar definido o caminho.
+   Verificar na pacote Suporte a classe Browser nela estar definido o caminho.
    No caso está defenido como "target\\Driver\\chromedriver.exe", a pasta 'Driver' foi criada dentro da pasta 'target',
    caso quando for clonar pode ser que a pasta não existe. Então criá-lo.
    
- - A pasta 'screenshot' talvez ao clonar o projeto não existe e só criar dentro da pasta 'target'.
+ - A pasta 'screenshot' talvez ao clonar o projeto não existe e só criar dentro da pasta 'target'. Pasta para armazenar
+   o print da tela.
   
  - Instalar o plugin Cucumber dentro do Eclipse em HELP > ECLIPSE MARKETPlACE e pesquisar cucumber e clicar em install.
  
