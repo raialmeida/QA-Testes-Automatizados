@@ -15,7 +15,7 @@ public class TesteWebJumpSteps2 {
 	protected WebDriver driver;
 
 	TesteWebJumbPages3 TesteWebJumbPages2 = new TesteWebJumbPages3(driver);
-	screenshot print = new screenshot();
+	//screenshot print = new screenshot();
 
 	@Given("^que eu acesse a pagina principal$")
 	public void queEuAcesseAPaginaPrincipal() throws Throwable {
@@ -51,12 +51,12 @@ public class TesteWebJumpSteps2 {
 	@Then("^validar a presenca da imagem do logo do Selenium Webdriver$")
 	public void validarAPresenADaImagemDoLogoDoSeleniumWebdriver() throws Throwable {
 		TesteWebJumbPages2.verificarlogoImagem(driver);
-		print.Print("Screenshot Cenário 3");
+		//print.Print("Screenshot Cenário 3");
 
 	}
 
 	@Then("^Fecha Browser$")
 	public void fechaBrowser() throws Throwable {
-		driver.quit();
+		this.driver.quit();
 	}
 }

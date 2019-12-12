@@ -14,7 +14,7 @@ public class TesteWebJumbStepsIframeButtons {
 	protected WebDriver driver;
 
 	TesteWebJumbPages2 TesteWebJumbPages2 = new TesteWebJumbPages2(driver);
-	screenshot print = new screenshot();
+	//screenshot print = new screenshot();
 	@Given("^que eu acesse o Iframe$")
 	public void queEuAcesseOIframe() throws Throwable {
 		driver = Browser.Iniciadriver();
@@ -36,11 +36,11 @@ public class TesteWebJumbStepsIframeButtons {
 	@Then("^verificar se os botoes ainda estao na tela do painel IFRAME BUTTONS$")
 	public void verificarSeOsBotoesAindaEstaoNaTelaDoPainelIFRAMEBUTTONS() throws Throwable {
 		TesteWebJumbPages2.verificarAusenciaBotaoIFrameButtons(driver);
-		print.Print("Screenshot Cenário 2");
+		//print.Print("Screenshot Cenário 2");
 	}
 
 	@Then("^Fecha Chrome$")
 	public void fechaChrome() throws Throwable {
-		driver.quit();
+		this.driver.quit();
 	}
 }

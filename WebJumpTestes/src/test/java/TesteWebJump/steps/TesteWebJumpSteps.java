@@ -39,8 +39,8 @@ public class TesteWebJumpSteps {
 	@Then("^verificar se os botoes ainda estao na tela$")
 	public void verificarSeOsBotoesAindaEstaoNaTela() throws Throwable {
 		TesteWebJumbPages.verificarAusencia(driver);
-		screenshot print = new screenshot(); 
-		print.Print("Screenshot Cenário 1");
+		//screenshot print = new screenshot(); 
+		//print.Print("Screenshot Cenário 1");
   
 	}
 	@Then("^Fecha navegador$")
