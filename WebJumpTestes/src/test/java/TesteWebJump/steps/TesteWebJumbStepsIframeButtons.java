@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import Suporte.Browser;
 import Suporte.screenshot;
 import TesteWebJumb.pages.TesteWebJumbPages2;
-import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
