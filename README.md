@@ -35,7 +35,7 @@
  
  - Baixar o chromedriver e colocar na pasta de destino onde será executado. No projeto está "target\\Driver\\chromedriver.exe"
  
- - Todas as dependências necessárias estão no arquivo pom.xml, ao abrir e salvar as dependências serão instalada automaticamente.
+ - Todas as dependências necessárias estão no arquivo pom.xml, ao abrir e salvar as dependências serão instaladas automaticamente.
    
  - Baixar o chromedriver e coolocar na pasta Driver ou então colocar na pasta desejável, so definir o caminho do driver
    na classe Browser.
@@ -43,5 +43,5 @@
  - Dentro do pacote TesteWebJump.runner contém a classe Runner.
    Executar a classe Runner para executar os testes.
    
- #####
+ 
   
