@@ -13,7 +13,7 @@
  - Eclpse Version: 2019-09 R (4.13.0)
  - Plugin do Cucumber(Instalado dentro do Eclipse)
  - JDK 8
- - chromedriver
+ - chromedriver(Só baixar, informaçôes abaixo)
 
 
 ## Linguagem 
@@ -32,6 +32,8 @@
    o print da tela.
   
  - Instalar o plugin Cucumber dentro do Eclipse em HELP > ECLIPSE MARKETPlACE e pesquisar cucumber e clicar em install.
+ 
+ - Baixar o chromedriver e colocar na pasta de destino onde será executado. No projeto está "target\\Driver\\chromedriver.exe"
  
  - Todas as dependências necessárias estão no arquivo pom.xml, ao abrir e salvar as dependências serão instalada automaticamente.
    
