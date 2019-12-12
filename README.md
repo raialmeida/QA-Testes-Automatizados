@@ -16,10 +16,10 @@
  - chromedriver Version 79.0.3945.36 (Só baixar, informações abaixo)
 
 
-## Linguagem 
+## Linguagem/S.O
 
  - Java
-
+ - S.O Windows
 
 ## Instruções para executar os testes.
 
