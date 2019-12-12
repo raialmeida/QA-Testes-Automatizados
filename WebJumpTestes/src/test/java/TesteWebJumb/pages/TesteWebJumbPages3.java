@@ -30,7 +30,7 @@ public class TesteWebJumbPages3 extends TesteWebJumbPagesBase {
 		driver.findElement(By.id("btn_one")).click();
 	}
 	public void chequeAopcaoOptionThree(WebDriver driver) {
-		
+ 
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("opt_three")));
 		
