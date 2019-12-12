@@ -19,7 +19,7 @@
  - Java
 
 
-# Instruções para executar os teste.
+# Instruções para executar os testes.
 
  - Quando for executar os testes verificar antes o caminho do driver.
    Verificar na pacote Suporte a classe Browser nela estar definido o caminho.
