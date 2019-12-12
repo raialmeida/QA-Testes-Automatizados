@@ -11,9 +11,9 @@
   ##### _Instalar todas abaixo._
 
  - Eclpse Version: 2019-09 R (4.13.0)
- - Plugin do Cucumber(Instalado dentro do Eclipse, informações abaixo)
+ - Plugin do Cucumber (Instalado dentro do Eclipse, informações abaixo)
  - JDK 8
- - chromedriver(Só baixar, informações abaixo)
+ - chromedriver (Só baixar, informações abaixo)
 
 
 ## Linguagem 
