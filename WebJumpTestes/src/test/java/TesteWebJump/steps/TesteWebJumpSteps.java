@@ -45,6 +45,6 @@ public class TesteWebJumpSteps {
 	}
 	@Then("^Fecha navegador$")
 	public void fechaNavegador() throws Throwable {
-	    driver.quit();
+	    this.driver.quit();
 }
 }
