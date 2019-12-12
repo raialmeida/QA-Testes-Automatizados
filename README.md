@@ -31,7 +31,7 @@
   
  - Instalar o plugin Cucumber dentro do Eclipse em HELP > ECLIPSE MARKETPlACE e pesquisar cucumber e clicar em install.
  
- - Todas as dependências estão no arquivo pom.xml, ao abrir e salvar as dependências serão baixada automaticamente.
+ - Todas as dependências estão no arquivo pom.xml, ao abrir e salvar as dependências serão instalada automaticamente.
    
  - Baixar o chromedriver e coolocar na pasta Driver ou então colocar na pasta desejável, so definir o caminho do driver
    na classe Browser.
